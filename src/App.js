@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+
+import HomePage from './components/HomePage';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        
-        {/*
-        - reset
-        - set up Router
-        - create first Route to HomePage
-        - create Route for LandingPage
-        */}
+        <Route exact path='/' component={HomePage} />
       </div>
     );
   }
