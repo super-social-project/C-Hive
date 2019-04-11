@@ -9,7 +9,6 @@ class App extends Component {
         {/*
         - reset
         - set up Router
-        - set up for StyledComponents
         - create first Route to HomePage
         - create Route for LandingPage
         */}
